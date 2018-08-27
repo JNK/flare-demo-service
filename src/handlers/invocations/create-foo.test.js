@@ -29,6 +29,7 @@ describe('create-foo', () => {
     const input = 'real foo';
     const context = await contextBuilder('taken name');
     context.mocks.invoke('some-service', 'some-handler').mockReturnValue('bla');
+    context.mocks.invoke('some-service', 'another-handler').mockImplementation(() => ({ foo: 'bar' }));
 
     // Act
     const outputPromise = handler(context, input);

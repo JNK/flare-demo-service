@@ -3,3 +3,6 @@ taken name:
   models:
     foo:
       - name: real foo
+  cache:
+    service:
+      some_locked_id: yay
