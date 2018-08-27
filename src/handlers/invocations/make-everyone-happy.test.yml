@@ -1,0 +1,30 @@
+---
+all happy:
+  models:
+    foo:
+      - name: hans
+        isHappy: true
+      - name: peter
+        isHappy: true
+      - name: dieter
+        isHappy: true
+
+some happy:
+  models:
+    foo:
+    - name: hans1
+      isHappy: true
+    - name: peter1
+      isHappy: true
+    - name: dieter1
+      isHappy: false
+
+all sad:
+  models:
+    foo:
+    - name: hans2
+      isHappy: false
+    - name: peter2
+      isHappy: false
+    - name: dieter2
+      isHappy: false

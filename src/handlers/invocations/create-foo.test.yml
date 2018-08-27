@@ -1,0 +1,5 @@
+---
+taken name:
+  models:
+    foo:
+      - name: real foo
