@@ -6,7 +6,6 @@
  * @returns an array of the foo's that are now happy
  */
 module.exports = async (context) => {
-
   let happyFoos;
 
   try {
