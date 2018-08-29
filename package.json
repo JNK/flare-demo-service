@@ -5,7 +5,8 @@
     "eslint-plugin-import": "^2.14.0",
     "jest": "^23.5.0",
     "jest-plugin-flare": "^1.0.4",
-    "jest-plugins": "^2.9.0"
+    "jest-plugins": "^2.9.0",
+    "mongodb-memory-server": "^2.1.0"
   },
   "name": "demo-service",
   "version": "1.0.0",

@@ -1,6 +1,6 @@
-const MongodbMemoryServer = require('mongodb-memory-server');
+const {MongoMemoryServer} = require('mongodb-memory-server');
 
-const mongod = new MongodbMemoryServer();
+const mongod = new MongoMemoryServer();
 
 const go = async () => {
   const uri = await mongod.getConnectionString();
