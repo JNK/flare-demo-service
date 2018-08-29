@@ -1345,9 +1345,9 @@ find-up@^2.0.0, find-up@^2.1.0:
   dependencies:
     locate-path "^2.0.0"
 
-flare-common@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/flare-common/-/flare-common-1.0.1.tgz#efa640239d588a9fcaab1103632934b63b2be85e"
+flare-common@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/flare-common/-/flare-common-1.0.4.tgz#116254c26761037761f20694273fba0b6922b7da"
   dependencies:
     amqplib "^0.5.2"
     glob "^7.1.2"
@@ -2201,12 +2201,12 @@ jest-mock@^23.2.0:
   version "23.2.0"
   resolved "https://registry.yarnpkg.com/jest-mock/-/jest-mock-23.2.0.tgz#ad1c60f29e8719d47c26e1138098b6d18b261134"
 
-jest-plugin-flare@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/jest-plugin-flare/-/jest-plugin-flare-1.0.1.tgz#ddf941ca98a74ce5233a571b4f5c66978a0f022e"
+jest-plugin-flare@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/jest-plugin-flare/-/jest-plugin-flare-1.0.4.tgz#3009c2e6bbe7c2424bd183d9a91ba66d925a3de7"
   dependencies:
     deepmerge "^2.1.1"
-    flare-common "^1.0.1"
+    flare-common "^1.0.4"
     moment "^2.22.2"
     mongodb-memory-server "^2.0.1"
     read-yaml "^1.1.0"
