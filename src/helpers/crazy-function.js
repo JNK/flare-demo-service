@@ -1,8 +1,8 @@
 //
 
-const ceazyFunction = async (events) => {
+const crazyFunction = async (events) => {
 
   return [];
 };
 
-module.exports = ceazyFunction;
+module.exports = crazyFunction;

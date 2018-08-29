@@ -13,7 +13,6 @@ module.exports = async (context, name) => {
     newFoo = await context.foo.createOne({ name });
   } catch (error) {
     context.log.warn('Failed to create a foo', error.message);
-    await context.helpers.crazyFunction([]);
     throw Error('Failed to create foo');
   }
 
