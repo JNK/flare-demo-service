@@ -4,7 +4,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "jest": "^23.5.0",
-    "jest-plugin-flare": "^1.0.3",
+    "jest-plugin-flare": "^1.0.4",
     "jest-plugins": "^2.9.0"
   },
   "name": "demo-service",
